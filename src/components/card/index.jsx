@@ -8,6 +8,7 @@ export const Card = (props) => (
       alt=""
     />
     <h2>{`Hello i'm ${props.robot.name}`}</h2>
-    <p>{`My email ${props.robot.email}`}</p>
+    <p>{`My phone: ${props.robot.phone}`}</p>
+    <p>{`My email: ${props.robot.email}`}</p>
   </div>
 );

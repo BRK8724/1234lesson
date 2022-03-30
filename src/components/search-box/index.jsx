@@ -1,6 +1,12 @@
 import React from "react";
+
 import "./style.css";
 
-export const Searchbox = (props) => (
-  <input className="search-box" type="search" placeholder="Search robots" />
+export const SearchBox = props => (
+  <input
+    className="search-box"
+    type="search"
+    placeholder="Робот хайх..."
+    onChange={props.onSearch}
+  />
 );
